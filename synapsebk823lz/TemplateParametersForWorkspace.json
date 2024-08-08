@@ -8,6 +8,9 @@
 		"synapsebk823lz-WorkspaceDefaultSqlServer_connectionString": {
 			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:synapsebk823lz.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
 		},
+		"GItConnect_properties_typeProperties_url": {
+			"value": "https://github.com/Ujjwal-Student/Azure-DE-Project-Case-Study/tree/main/sales_data"
+		},
 		"synapsebk823lz-WorkspaceDefaultStorage_properties_typeProperties_url": {
 			"value": "https://datalakebk823lz.dfs.core.windows.net"
 		}
