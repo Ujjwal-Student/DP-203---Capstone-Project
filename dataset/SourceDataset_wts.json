@@ -1,0 +1,27 @@
+{
+	"name": "SourceDataset_wts",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "GItConnect",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"rowDelimiter": "\n",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": null
+		},
+		"schema": [
+			{
+				"name": "  >",
+				"type": "String"
+			}
+		]
+	}
+}
